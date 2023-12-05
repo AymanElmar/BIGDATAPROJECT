@@ -6,8 +6,8 @@ import datetime
 #LOOP ON DATES
 #START DATE: 2021-01-01   
 async def main():
-    start_date = datetime.datetime(2021,1,1)
-    end_date = datetime.datetime(2021,1,2)
+    start_date = datetime.datetime(2019,1,1)
+    end_date = datetime.datetime(2019,1,2)
     with open("TSLA_tweets.json", "w") as f:
         while end_date.strftime("%Y-%m-%d") != "2023-11-24":
             api = API()
